@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selection</title>
+</head>
+<style>
+    .container{
+        display:grid;
+        grid-template-columns: repeat(3,250px);
+        grid-auto-rows: 200px;
+        grid-row-gap:30px;
+        /* grid-template-areas: ; */
+        justify-content: center;
+        align-content: center;
+        grid-column-gap:30px;
+        font-size: 14px;
+    }
+    .col1{
+        background-color: rgb(255, 94, 0);
+        align-items: center;
+    }
+    .col2{
+        background-color: rgb(217, 255, 0);
+        align-items: center;
+    }
+    .col3{
+        background-color: rgb(0, 255, 13);
+        align-items: center;
+    }
+    .col4{
+        background-color: rgb(0, 247, 255);
+        align-items: center;
+    }
+    .col5{
+        background-color: rgb(0, 102, 255);
+        align-items: center;
+    }
+    .col6{
+        background-color: rgb(93, 0, 255);
+        align-items: center;
+    }
+      @media(max-width:760px){
+        .container{
+        display:grid;
+        grid-template-columns: repeat(1,150px);
+        grid-auto-rows: 200px;
+        grid-row-gap:30px;
+        /* grid-template-areas: ; */
+        justify-content: center;
+        align-content: center;
+        grid-column-gap:30px;
+        font-size: 12px;
+        }
+        .hey{
+            font-size: 12px;
+        }
+      }
+      
+
+</style>
+<body>
+    <div>
+        <h3 class="hey">
+            <center>Hello customer, please select the restaurant you want to order from:</center>
+        </h3>
+
+    <div class="container">
+        <div class="col1">
+            <center><a href="main.html"><h3>Main canteen</h3></a></center>
+        </div>
+        <div class="col2"><center><h3>Guild canteen</h3></center></div>
+        <div class="col3"><center><a href="joy.html"><h3>Joy canteen</h3></a></center></div>
+        <div class="col4"><center><h3>Ebenezer</h3></center></div>
+        <div class="col5"><center><h3><a href="touch.html">Touch of Class</h3></a></center>
+        </div>
+        <div class="col6"><center><h3>Canopy Grill</h3></center></div>
+        
+    </div>
+   
+   
+</div>
+</body>
+</html>
